@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspReact", "AspReact\AspReact.csproj", "{ED5D9E8D-844B-4329-AB88-F2F762AD24EC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{D1842FF4-682E-486D-9612-DE249D22FB32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{BFC799D4-39CF-4C9F-9E37-26C4AF880F56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DomainTests", "DomainTests\DomainTests.csproj", "{6D40485E-8A12-46F4-A970-8B7BBA57ECAB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{ED5D9E8D-844B-4329-AB88-F2F762AD24EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED5D9E8D-844B-4329-AB88-F2F762AD24EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED5D9E8D-844B-4329-AB88-F2F762AD24EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED5D9E8D-844B-4329-AB88-F2F762AD24EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1842FF4-682E-486D-9612-DE249D22FB32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1842FF4-682E-486D-9612-DE249D22FB32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1842FF4-682E-486D-9612-DE249D22FB32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1842FF4-682E-486D-9612-DE249D22FB32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFC799D4-39CF-4C9F-9E37-26C4AF880F56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFC799D4-39CF-4C9F-9E37-26C4AF880F56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFC799D4-39CF-4C9F-9E37-26C4AF880F56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFC799D4-39CF-4C9F-9E37-26C4AF880F56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6D40485E-8A12-46F4-A970-8B7BBA57ECAB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6D40485E-8A12-46F4-A970-8B7BBA57ECAB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6D40485E-8A12-46F4-A970-8B7BBA57ECAB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6D40485E-8A12-46F4-A970-8B7BBA57ECAB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

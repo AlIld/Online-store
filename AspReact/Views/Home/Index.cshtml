@@ -1,0 +1,28 @@
+﻿@model object
+
+@{
+    ViewBag.Title = "Admin home";
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width"/>
+    <title>Admin home page</title>
+</head>
+<body>
+<div class="col-lg-12" style="text-align: center;min-width: 50%;max-width:100%; font-size: 20px; display: inline-block; top: 0;left: 0;bottom: 0;right: 0;position: absolute; margin-top:10%; margin-bottom:20%">
+    <h1>Admin home page</h1>
+    <hr/>
+    <p>
+        <a asp-controller="Category" asp-action="Index">Manage categories</a>
+    </p>
+    <p>
+        <a asp-controller="Product" asp-action="Index">Manage products</a>
+    </p>
+    <p>
+        <a asp-controller="Order" asp-action="Index">Manage orders</a>
+    </p>
+</div>
+</body>
+</html>

@@ -1,0 +1,59 @@
+@model Data.Models.Order
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Edit</h1>
+
+<h4>Order</h4>
+<hr/>
+<form asp-action="Edit">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+    <input type="hidden" asp-for="Id"/>
+    <dl class="row">
+        
+        <dt class="col-sm-2">
+            @Html.LabelFor(x => x.DateTime)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.DateTime)
+        </dd>
+        <input type="hidden" asp-for="DateTime"/>
+        <span asp-validation-for="DateTime" class="text-danger"></span>
+        
+        <dt class="col-sm-2">
+            @Html.LabelFor(x => x.FullPrice)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.FullPrice)
+        </dd>
+        <input type="hidden" asp-for="FullPrice"/>
+        <span asp-validation-for="FullPrice" class="text-danger"></span>
+        
+        <dt class="col-sm-2">
+            @Html.LabelFor(model => model.IsPaid)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.IsPaid)
+        </dd>
+        <input type="hidden" asp-for="IsPaid"/>
+        <span asp-validation-for="IsPaid" class="text-danger"></span>
+        
+        <dt class="col-sm-2">
+            @Html.LabelFor(model => model.IsDelivered)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.CheckBoxFor(model => model.IsDelivered)
+        </dd>
+        <span asp-validation-for="IsDelivered" class="text-danger"></span>
+        
+    </dl>
+    <input type="submit" value="Save" class="btn btn-primary"/>
+</form>
+
+<br/>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
